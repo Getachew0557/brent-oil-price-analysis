@@ -1,0 +1,31 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment folders
+env/
+venv/
+.idea/
+.vscode/
+base/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive data or large datasets
+data/*.csv
+data/*.json
+data/*.xls
+data/*.xlsx
+
+# Ignore .env or other sensitive configuration files
+.env
+.env.local
+
+# Ignore outputs from GitHub workflows (if needed)
+.github/workflows/__pycache__/
+.github/workflows/*.log
