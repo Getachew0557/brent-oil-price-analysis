@@ -1,5 +1,6 @@
 # src/preprocessing.py
 import pandas as pd
+import numpy as np
 def data_summary(df):
     print("Size of Dataset:", df.shape)
     print("Statistics of data:", df.describe())
@@ -13,7 +14,7 @@ def preprocess_data(df):
 
     #Duplicated values
     print(f"the number of duplicated value:\n{df.duplicated().sum()}")
-    
+
     # Convert 'Date' to datetime format
     df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
     # Set 'Date' as the index
