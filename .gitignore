@@ -29,3 +29,4 @@ data/*.xlsx
 # Ignore outputs from GitHub workflows (if needed)
 .github/workflows/__pycache__/
 .github/workflows/*.log
+bash/*
